@@ -54,9 +54,8 @@ body{
         height: 80vh;
         background: url("./image/pic.jpg");
         background-size: cover;
-        right: 0;
-        top: 10vh;
-        position: relative;
+        margin-top: 100px;
+        position: static;
     }
     .article{
         width: 100vw;
