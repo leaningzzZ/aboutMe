@@ -48,3 +48,17 @@ body{
     right: 5vw;
     top: 0;
 }
+@media screen and (max-width: 550px){
+    .pic{
+        width: 100vw;
+        height: 80vh;
+        background: url("./image/pic.jpg");
+        background-size: cover;
+        display: block;
+    }
+    .article{
+        width: 100vw;
+        height: 100vh;
+        padding: 20vh 10vw 0 10vw;
+    }
+  }
