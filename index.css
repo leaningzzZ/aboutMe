@@ -1,0 +1,50 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: white;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.article{
+    width: 50vw;
+    height: 100vh;
+    padding: 20vh 10vw 0 10vw;
+}
+.article .title h1{
+    font-size: 4.5em;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.article .title h3{
+    font-weight: 400;
+}
+.article .content {
+    margin-top: 10vh;
+    font-size: 1em;
+}
+.article .contact{
+    margin-top: 5vh;
+}
+.article .work{
+    margin-top: 5vh;
+}
+.article a{
+    margin-left: 1vw;
+    margin-top: 1vh;
+}
+.pic{
+    width: 40vw;
+    height: 100vh;
+    background: url("./image/pic.jpg");
+    background-size: cover;
+    position: absolute;
+    right: 5vw;
+    top: 0;
+}
